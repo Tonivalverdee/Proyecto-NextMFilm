@@ -18,6 +18,7 @@ $data = json_decode($result,true); // Decodifica la respuesta JSON en un array
     <link rel="icon" href="./logo-marvel.jpg">
 </head>
 <body>
+    <a id="boton" href="../index.php"><button class="btn btn-primary">Volver</button></a>
     <br><br>
     <div class="container movie-container">
         <img src="<?= $data["poster_url"] ?>" alt="<?= $data["title"]?>">
